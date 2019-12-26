@@ -45,6 +45,7 @@ class Vimeo extends React.Component {
       muted: this.props.muted,
       background: this.props.background,
       responsive: this.props.responsive,
+      start: this.props.responsive,
     };
     /* eslint-enable react/destructuring-assignment */
   }
